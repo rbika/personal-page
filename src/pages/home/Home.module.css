@@ -1,0 +1,38 @@
+.root {
+  color: var(--text-primary-color);
+  background-color: var(--bg-primary-color);
+  height: 100vh;
+  padding-top: 100px;
+}
+
+.profileImg {
+  border: 3px solid white;
+  box-shadow: 0 1px 10px 0px #9e9e9e;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.subTitle {
+  color: var(--text-secondary-color);
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.interLink {
+  color: var(--inter-orange);
+}
+.interLink:hover {
+  color: var(--inter-orange);
+}
+
+.socialIcon {
+  color: var(--text-primary-color);
+  transition: color 0.3s;
+}
+
+.socialIcon:hover {
+  color: var(--text-secondary-color);
+}
