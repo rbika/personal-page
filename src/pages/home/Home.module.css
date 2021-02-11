@@ -27,9 +27,13 @@
 
 .interLink {
   color: var(--inter-orange);
+  transition: all 0.3s;
+  border-bottom: 1px solid transparent;
 }
 .interLink:hover {
   color: var(--inter-orange);
+  text-decoration: none;
+  border-bottom: 1px solid var(--inter-orange);
 }
 
 .socialIcon {
@@ -38,5 +42,5 @@
 }
 
 .socialIcon:hover {
-  color: var(--text-secondary-color);
+  color: var(--text-highlight-color);
 }

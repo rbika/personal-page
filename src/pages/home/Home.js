@@ -1,12 +1,6 @@
 import * as React from 'react'
 
-import {
-  FaGithub,
-  FaTwitter,
-  FaLinkedinIn,
-  FaSpotify,
-  // FaFileAlt,
-} from 'react-icons/fa'
+import { FaGithub, FaLinkedinIn, FaRegEnvelope } from 'react-icons/fa'
 
 import profileImg from '../../images/profile.jpg'
 import styles from './Home.module.css'
@@ -40,21 +34,20 @@ const HomePage = () => {
 
       <div className="d-flex">
         <a
+          href="mailto:rbmbika@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+          className="m-3"
+        >
+          <FaRegEnvelope className={styles.socialIcon} size="1.5rem" />
+        </a>
+        <a
           href="https://github.com/rbika"
           target="_blank"
           rel="noreferrer"
           className="m-3"
         >
           <FaGithub className={styles.socialIcon} size="1.5rem" />
-        </a>
-
-        <a
-          href="https://twitter.com/rbika"
-          target="_blank"
-          rel="noreferrer"
-          className="m-3"
-        >
-          <FaTwitter className={styles.socialIcon} size="1.5rem" />
         </a>
 
         <a
@@ -65,17 +58,6 @@ const HomePage = () => {
         >
           <FaLinkedinIn className={styles.socialIcon} size="1.5rem" />
         </a>
-
-        <a
-          href="https://open.spotify.com/user/rbika"
-          target="_blank"
-          rel="noreferrer"
-          className="m-3"
-        >
-          <FaSpotify className={styles.socialIcon} size="1.5rem" />
-        </a>
-
-        {/* <FaFileAlt className={`m-3 ${styles.socialIcon}`} color="#455a64" size="1.4rem" /> */}
       </div>
     </div>
   )
