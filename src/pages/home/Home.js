@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from 'react'
 
 import {
   FaGithub,
@@ -6,10 +6,10 @@ import {
   FaLinkedinIn,
   FaSpotify,
   // FaFileAlt,
-} from 'react-icons/fa';
+} from 'react-icons/fa'
 
-import profileImg from '../../images/profile.jpg';
-import styles from './Home.module.css';
+import profileImg from '../../images/profile.jpg'
+import styles from './Home.module.css'
 
 const HomePage = () => {
   return (
@@ -78,7 +78,7 @@ const HomePage = () => {
         {/* <FaFileAlt className={`m-3 ${styles.socialIcon}`} color="#455a64" size="1.4rem" /> */}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default HomePage;
+export default HomePage
