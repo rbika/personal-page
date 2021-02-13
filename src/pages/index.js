@@ -2,7 +2,7 @@ import * as React from 'react'
 
 import { FaGithub, FaLinkedinIn, FaRegEnvelope } from 'react-icons/fa'
 
-import Seo from '../components/Seo/Seo'
+import Seo from '../components/Seo'
 import Layout from '../components/Layout'
 import profileImg from '../images/profile.jpg'
 

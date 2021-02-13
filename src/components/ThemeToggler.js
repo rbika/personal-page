@@ -1,17 +1,24 @@
 import * as React from 'react'
 
 import { IoSunny, IoMoon } from 'react-icons/io5'
+import styled from '@emotion/styled'
 
-import * as S from './ThemeToggler.styles'
+export const Container = styled.div`
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  cursor: pointer;
+  color: ${({ theme }) => theme.colors.textPrimary};
+`
 
 const ThemeToggler = ({ theme, onClick }) => {
   const nextTheme = theme === 'light' ? 'dark' : 'light'
 
   return (
-    <S.Container onClick={() => onClick(nextTheme)}>
+    <Container onClick={() => onClick(nextTheme)}>
       {nextTheme === 'light' && <IoSunny size="1.5rem" />}
       {nextTheme === 'dark' && <IoMoon size="1.5rem" />}
-    </S.Container>
+    </Container>
   )
 }
 
