@@ -1,9 +1,4 @@
 module.exports = {
-  siteMetadata: {
-    title: `Rafael Bicalho - Bika(s)`,
-    description: `Frontend Developer at Inter.`,
-    author: `@rbika`,
-  },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
